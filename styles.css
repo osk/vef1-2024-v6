@@ -56,7 +56,7 @@ html {
   --width-offset: calc(100% - (2 * var(--offset)));
   /* Litir */
   /** Litir með nafni **/
-  --color-yellow: #f3dd99;
+  --color-yellow: #f0f;
   --color-white: #ffffff;
   --color-black: #000000;
   --color-purple: #eebbdd;
@@ -174,12 +174,12 @@ header,
 }
 
 /**
- * Eftirfarandi setur upp grunn umbrot (layout) síðu með flexbox.
- * Við förum yfir flexbox í viku 4 en þangað til er hægt að nota þetta
- * sem grunn og án breytinga.
- * Athugið að til þess að þetta virki þar að setja <div class="wrapper"> utan um allt efni 
- * innan <body>.
- */
+   * Eftirfarandi setur upp grunn umbrot (layout) síðu með flexbox.
+   * Við förum yfir flexbox í viku 4 en þangað til er hægt að nota þetta
+   * sem grunn og án breytinga.
+   * Athugið að til þess að þetta virki þar að setja <div class="wrapper"> utan um allt efni 
+   * innan <body>.
+   */
 .wrapper {
   /* Notum grid hér til að setja upp bil á milli header, meginmáls og fóts */
   display: grid;
@@ -259,9 +259,9 @@ main {
 }
 
 /**
- * notum þetta til að fá bil á milli eininga _almennt_
- * en ekki að hver eining þurfi að huga að bili
- */
+   * notum þetta til að fá bil á milli eininga _almennt_
+   * en ekki að hver eining þurfi að huga að bili
+   */
 main > .content {
   display: flex;
   flex-direction: column;
