@@ -56,7 +56,7 @@ html {
   --width-offset: calc(100% - (2 * var(--offset)));
   /* Litir */
   /** Litir með nafni **/
-  --color-yellow: #f0f;
+  --color-yellow: #aa6644;
   --color-white: #ffffff;
   --color-black: #000000;
   --color-purple: #761a57;
